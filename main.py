@@ -10,7 +10,7 @@ def index():
 
 @app.route('/test')
 def index():
-    return jsonify({"Choo Choo": "hEY})
+    return jsonify({"Choo Choo": "hEY"})
 
 
 if __name__ == '__main__':
